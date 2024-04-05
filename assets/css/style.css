@@ -1,0 +1,27 @@
+main {
+    display: flex;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    border:1px solid rebeccapurple;
+    height: 100vh;
+    padding: 10px;
+}
+.display{
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    overflow-y: auto;
+}
+
+img {
+    max-height: 90vh;
+}
+
+h2{
+    color:black;
+    text-shadow: 2px 2px;
+}
